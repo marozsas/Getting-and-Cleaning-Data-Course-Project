@@ -14,7 +14,7 @@ This script will create 3 output files:
 - `dataAverage.txt`: that correspond to  the average of each variable for each activity and each subject, as asked in the last part of the assigment.
 
 ###final notes
-- Please, note that parts 3 and 4 of assignment (*use descriptive names for column names and activities*) was ==embebed== in the code that generates `dataMerged.txt`.
+- Please, note that parts 3 and 4 of assignment (*use descriptive names for column names and activities*) was **embebed** in the code that generates `dataMerged.txt`.
 - only the first output file (`dataMerged.txt`) is mandatory in this assigment. I create the others by my own. To supress the output of these files, comment out the lines 104 and 123.
 
 No arguments is need. Just source `run_analysis.R` and you' re good.
