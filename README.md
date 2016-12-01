@@ -7,6 +7,7 @@ The [input](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 
 ###steps to transform the original data in the final result
 The output data set is obtained from the following steps:
+
 1. a merged data set is built from 2 sets: `X_train.txt` and `X_test.txt` original files in `UCI HAR Dataset`. Two additional columns are added to this set: ***subject*** and ***activity***. They come from `subject_train.txt` (and `subject_test.txt`) and `y_train.txt` (and `y_test.txt`).
 2. descriptive names for columns names are read from `features.txt`.
 3. descriptive names for content of **activity** column are read from `activity_labels.txt`.
