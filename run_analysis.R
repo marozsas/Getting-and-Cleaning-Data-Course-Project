@@ -31,10 +31,8 @@ subject <- read.table(fileSubject, row.names=NULL)
 fileActivity <-  "./UCI HAR Dataset/train/y_train.txt"
 activity <- read.table(fileActivity, row.names=NULL)
 
-# add subject to the train set
+# add subject and activity to the train set
 train$subject <- subject$V1
-
-# add activity to the train set
 train$activity <- factor(activity$V1, levels = act_lbl$V1, labels=act_lbl$V2)
 
 # re-order 
@@ -52,10 +50,8 @@ subject <- read.table(fileSubject)
 fileActivity <- "./UCI HAR Dataset/test/y_test.txt"
 activity <- read.table(fileActivity)
 
-# add subject to the train set
+# add subject and activity to the train set
 test$subject <- subject$V1
-
-# add activity to the train set
 test$activity <- factor(activity$V1, levels = act_lbl$V1, labels=act_lbl$V2)
 
 # re-order 
